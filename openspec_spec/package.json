@@ -1,0 +1,14 @@
+{
+  "name": "tree-sitter-openspec-spec",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tree-sitter grammar for OpenSpec spec files",
+  "license": "MIT",
+  "devDependencies": {
+    "tree-sitter-cli": "^0.25.0"
+  },
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "test": "tree-sitter test"
+  }
+}

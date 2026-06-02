@@ -1,0 +1,5 @@
+schema: spec-driven
+
+context: |
+  Tech stack: JavaScript (grammar.js), C (generated parser), Tree-sitter CLI, Nix
+  Multi-grammar tree-sitter repo for OpenSpec file formats

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammars for OpenSpec file formats",
+    "authors": [],
+    "links": {
+      "repository": "https://github.com/pim-openspec/tree-sitter-openspec"
+    }
+  },
+  "grammars": [
+    {
+      "name": "openspec_spec",
+      "camelCase": false,
+      "scope": "source.openspec-spec",
+      "path": "openspec_spec",
+      "file-types": ["openspec-spec"],
+      "highlights": "queries/openspec_spec/highlights.scm",
+      "injections": "queries/openspec_spec/injections.scm"
+    }
+  ]
+}
